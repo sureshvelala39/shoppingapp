@@ -10,20 +10,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="margin-left: 10%; margin-right: 10%;">
+<body class="bgm-container">
     <div>
         
-        <form class="d-flex" style="margin-left: 10%;">
+        <form class="d-flex" style="menu-top">
            <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657319/logo_qxuvr7.png" alt="">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
-                style="height: 20%; margin-top: 10px">
+                class="input-bar">
             <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
             <div class="input-group mb-3">
                 <!-- <input type="text" class="form-control" aria-label="Text input with dropdown button"> -->
-                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">USD</button>
+                <button class="btn btn-outline-secondary dropdown-toggle usd-button" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" >USD</button>
                 <ul class="dropdown-menu dropdown-menu-end">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -159,9 +160,8 @@
         
         <div style="display: block;">
             
-            <div style="display: flex; float: left; margin-left: 10px;
-            font-size: 15pt;">
-               <div style="display: flex; order:1;">
+            <div class="side-bar">
+               <div class="middle-container">
                 <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657368/Screenshot_2023-08-09_191912_fsgjdc.png" alt=".." style="width:600px; margin:10px;">
                 <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657377/Screenshot_2023-08-09_191941_crdk1h.png" alt="...">
             </div>
@@ -180,8 +180,8 @@
             
         </div>
         
-        <div style="display: block;">
-            <div class="row row-cols-1 row-cols-md-5 g-4 " style="align-items: center; text-align: center; justify-content: center;">
+        <div class="bottom-container">
+            <div class="row row-cols-1 row-cols-md-5 g-4 " class="bottom-item">
                 <div class="col">
                   <div class="card h-100">
                     <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657292/fast_dcwazn.png" class="card-img-top" alt="..." style="width: 70px; align-items: center; padding-top:30px; margin-left: 35px;">
@@ -194,7 +194,7 @@
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657304/guarentee_oh3ns6.png" class="card-img-top" alt="..." style="width: 70px; padding-top:30px; margin-left: 35px;">
+                    <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657304/guarentee_oh3ns6.png" class="card-img-top1" alt="..." >
                     <div class="card-body">
                       <h5 class="card-title">100% Guarentee <br> on Product</h5>
                     </div>
@@ -204,7 +204,7 @@
 
                 <div class="col">
                   <div class="card h-100" >
-                    <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691652229/return_policy_famrqj.png" class="card-img-top" alt="..." style="width: 90px;padding-top:30px; margin-left: 35px; ">
+                    <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691652229/return_policy_famrqj.png" class="card-img-top2" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">24 Hour Return <br>Policy</h5>
                     </div>
@@ -214,7 +214,7 @@
 
                 <div class="col">
                     <div class="card h-100">
-                      <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657346/return_policy_2_ipqkz7.png" class="card-img-top" alt="..."  style="width: 70px; padding-top:30px; margin-left: 35px;">
+                      <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657346/return_policy_2_ipqkz7.png" class="card-img-top3" alt="..." >
                       <div class="card-body">   
                         <h5 class="card-title">24 Hour Return <br>Policy</h5>
                       </div>
@@ -224,7 +224,7 @@
 
                   <div class="col">
                     <div class="card h-100">
-                      <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657328/next_level_ynhp5e.png" class="card-img-top " alt="..."  style="width: 70px; padding-top:30px; margin-left: 35px;">
+                      <img src="https://res.cloudinary.com/dyktkm0qx/image/upload/v1691657328/next_level_ynhp5e.png" class="card-img-top4 " alt="..." >
                       <div class="card-body">
                         <h5 class="card-title">Next Level Pro <br> Quality</h5>
                       </div>
@@ -235,7 +235,6 @@
         </div>
         
     </div>
-
 </body>
 
 </html>

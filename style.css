@@ -1,0 +1,56 @@
+.bgm-container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.menu-top {
+  margin-left: 10%;
+}
+
+.side-bar {
+  display: flex;
+  float: left;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.middle-container {
+  display: flex;
+  order: 1;
+}
+.bottom-container {
+  display: block;
+}
+.bottom-item{
+    align-items: center;
+     text-align: center; 
+     justify-content: center;
+}
+.card-img-top1{
+     width: 70px; 
+     padding-top:30px; 
+     margin-left: 35px;
+                  
+}
+.card-img-top2{
+    width: 70px; 
+    padding-top:30px; 
+    margin-left: 35px;
+                 
+}
+.card-img-top3{
+    width: 70px; 
+    padding-top:30px; 
+    margin-left: 35px;
+                 
+}
+
+.card-img-top4{
+    width: 70px; 
+    padding-top:30px; 
+    margin-left: 35px;
+
+}
+.usd-button{
+
+    width:70px;
+    height:40px;
+}
